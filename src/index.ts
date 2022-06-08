@@ -20,6 +20,6 @@ fs.mkdir(`./${args['name']}`, (error: Error) => {
   const destDir = `./${args['name']}`
 
   fs.copySync(srcDir, destDir);
-  console.log("Project created successfully!")
+  console.log("Project created successfully!!")
   process.exit(0);
 })
